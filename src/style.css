@@ -1,3 +1,5 @@
+/*https://www.youtube.com/playlist?list=PLrMoWLZPWpBU8qR-2hp90obIEEAelORR1*/
+
 :root {
   --heading-font-family: "Inter", sans-serif;
   --deafault-font-family: "Poppins", sans-serif;
@@ -185,7 +187,7 @@ footer a:hover {
 
 .card {
   background-color: white;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .card-body {
@@ -211,7 +213,7 @@ footer a:hover {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
