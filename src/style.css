@@ -83,7 +83,7 @@ main h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 5px;
-  margin: 0;
+  margin: 0 0 20px;
   opacity: 0.3;
   text-transform: uppercase;
 }
@@ -171,12 +171,22 @@ footer a:hover {
   grid-gap: 64px;
 }
 
+.grid.grid-3-columns,
+.grid.grid-3-columns-double {
+  grid-gap: 30px;
+}
+
 .grid-2-columns {
   grid-template-columns: repeat(2, 1fr);
 }
 
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3-columns-double {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .grid-3-columns-non-equal {
@@ -186,6 +196,11 @@ footer a:hover {
 .embed {
   width: 100%;
   aspect-ratio: 16 / 9;
+}
+
+.embed-1-1-ratio {
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 .card {
@@ -260,5 +275,9 @@ footer a:hover {
 
   .img-responsive {
     width: 80%;
+  }
+
+  .embed-1-1-ratio {
+    aspect-ratio: 16 / 9;
   }
 }
