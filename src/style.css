@@ -235,11 +235,6 @@ footer a:hover {
   display: block;
 }
 
-.grid-img {
-  width: 370px;
-  height: 230px;
-}
-
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -271,10 +266,6 @@ footer a:hover {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
-  }
-
-  .img-responsive {
-    width: 80%;
   }
 
   .embed-1-1-ratio {
